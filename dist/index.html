@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-white">
+
+  <!-- HEADER -->
+  <header class=" bg-white/10 shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-5 flex justify-between items-center ">
+
+      <h1 class="text-2xl font-bold text-blue-600">Tailwind CSS</h1>
+
+      <nav class="hidden lg:flex items-center gap-6 font-medium ">
+        <a href=""class="hover:text-blue-600 down-underline">Home</a>
+        <a href=""class="hover:text-blue-600 down-underline">About</a>
+        <a href=""class="hover:text-blue-600 down-underline">Pricing</a>
+        <a href=""class="hover:text-blue-600 down-underline">Feature</a>
+        <a href=""class="hover:text-blue-600 down-underline">Dropdown</a>
+        <a href=""class="hover:text-blue-600 down-underline">Service</a>
+        <a href=""class="hover:text-blue-600 down-underline">Contact</a>
+      </nav>
+      
+      <div class="hidden lg:flex gap-2">
+        <i class="fa-brands fa-instagram fa-lg hover:text-blue-600"></i>
+        <i class="fa-brands fa-facebook fa-lg hover:text-blue-600"></i>
+        <i class="fa-brands fa-twitter fa-lg hover:text-blue-600"></i>
+        <i class="fa-brands fa-youtube fa-lg hover:text-blue-600"></i>
+      </div>
+      
+      <button id="btn" class="lg:hidden flex text-2xl">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <div id="mobileBtn" class=" hidden lg:hidden relativet top-0 ">
+    <nav class="  grid gap-4 py-4 absolute top-0  right-0 w-55 bg-white/10 ">
+      <button id="closeBtn" class="flex border-b-2 py-2 items-center">
+        <i class="fa-solid fa-x"></i>
+      </button>
+        <a href=""class="hover:text-blue-600 down-underline">Home</a>
+        <a href=""class="hover:text-blue-600 down-underline">About</a>
+        <a href=""class="hover:text-blue-600 down-underline">Pricing</a>
+        <a href=""class="hover:text-blue-600 down-underline">Feature</a>
+        <a href=""class="hover:text-blue-600 down-underline">Dropdown</a>
+        <a href=""class="hover:text-blue-600 down-underline">Service</a>
+        <a href=""class="hover:text-blue-600 down-underline">Contact</a>
+        
+        <div class=" flex gap-2 py-2">
+        <i class="fa-brands fa-instagram fa-lg hover:text-blue-600"></i>
+        <i class="fa-brands fa-facebook fa-lg hover:text-blue-600"></i>
+        <i class="fa-brands fa-twitter fa-lg hover:text-blue-600"></i>
+        <i class="fa-brands fa-youtube fa-lg hover:text-blue-600"></i>
+        </div>
+      </nav>
+  </div>
+
+
+  <!-- SECTION -->
+   <section class="w-screen min-h-screen">
+    <div class="max-w-7xl mx-auto px-4 py-24">
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <!-- LEFT -->
+         <div>
+           <div class="inline-flex w-fit items-center gap-2 px-4 py-1 mb-6 text-sm rounded-full border bg-white/10 border-blue-500 ">
+             <span class=" ">⚡ Trusted by 750+ Companies</span>
+            </div>
+
+            <h1 class="text-4xl lg:text-6xl font-bold leading-tight mb-6 ">Launch Your Product Faster
+               Than Ever</h1>
+
+               <p class="text-gray-300 max-w-xl mb-8">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis.</p>
+
+               <div class="flex flex-wrap gap-6 mb-8 text-sm">
+                <span class="flex items-center gap-2">✅ Instant Setup</span>
+                <span class="flex items-center gap-2">✅ Advanced Analytics</span>
+                <span class="flex items-center gap-2">✅ 24/7 Support</span>
+               </div>
+
+               <div class="flex gap-4 flex-wrap ">
+                <button class="px-6 py-3 rounded-lg bg-blue-700  hover:bg-blue-600 "> Start Free Trial →</button>
+                <button class="px-6 py-3 rounded-lg bg-white/20 hover:bg-white/10 ">▶ Watch Demo</button>
+               </div>
+         </div>
+         
+         <!-- RIGHT -->
+          <div class="relative">
+            <img src="../image/illustration-27.webp" alt="image" class="w-full max-w-xl mx-auto relative z-10 rounded-xl shadow-2xl ">
+
+            <div class=" hidden lg:flex  fload absolute top-1/4 left-8 bg-white/10 backdrop-blur border border-white/20 rounded-xl px-4 py-3 text-sm  ">
+              👥 12.5k Active Users
+            </div>
+            <div class=" hidden lg:flex  fload absolute top-1/2 right-0  bg-black/10 backdrop-blur border border-white/20 rounded-xl px-4 py-3 text-sm  ">
+              👥 12.5k Active Users
+            </div>
+            <div class=" hidden lg:flex  fload absolute top-10/12 left-8 bg-white/10 backdrop-blur border border-white/20 rounded-xl px-4 py-3 text-sm  ">
+              👥 12.5k Active Users
+            </div>
+          </div>
+      </div>
+    </div>
+   </section>
+
+
+    
+  <script src="./script.js"></script>
+</body>
+</html>
